@@ -43,7 +43,7 @@ public class StaffAction extends HttpServlet {
 		req.setCharacterEncoding("utf-8");
 		resp.setCharacterEncoding("utf-8");
 		resp.setContentType("text/html;charset=utf-8");
-		
+		System.out.println();
 		
 		String m=req.getParameter("m");
 		
